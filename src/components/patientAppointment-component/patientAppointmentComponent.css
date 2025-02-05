@@ -1,0 +1,128 @@
+.patient-appointment-component {
+  height: calc(100vh - 146.4px);
+}
+
+.patient-appointment-component .container h2 {
+  color: white;
+  font-weight: 600;
+}
+
+.patient-appointment-component .container form {
+  margin-top: 20px;
+}
+
+.patient-appointment-component .container form > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.patient-appointment-component .container form > div:not(:first-child) {
+  margin-top: 20px;
+}
+
+.patient-appointment-component .container form > div input {
+  flex-basis: 45%;
+  border: 1px solid white;
+  background-color: transparent;
+  outline: none;
+  padding: 10px 10px 10px 15px;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+}
+
+.patient-appointment-component .container form > div input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Remove arrows from number input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.patient-appointment-component .container form > div > select {
+  flex-basis: 45%;
+  border: 1px solid white;
+  background-color: transparent;
+  outline: none;
+  padding: 10px 10px 10px 15px;
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+}
+
+.patient-appointment-component .container form > div > select option {
+  color: black;
+}
+
+.patient-appointment-component .container form > div.date-time {
+  all: unset;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10%;
+}
+
+.patient-appointment-component .container form > div.date-time > div {
+  flex-basis: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.patient-appointment-component .container form > div.date-time > div > label {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.patient-appointment-component .container form > div.description textarea {
+  width: 100%;
+  height: 160px;
+  border: 1px solid white;
+  background-color: transparent;
+  outline: none;
+  padding: 10px 10px 10px 15px;
+  border-radius: 20px;
+  color: white;
+  font-size: 16px;
+  resize: none;
+}
+
+.patient-appointment-component
+  .container
+  form
+  > div.description
+  textarea::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.patient-appointment-component .container form > input[type="submit"] {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  color: #6c63ff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.patient-appointment-component .container form > input[type="submit"]:hover {
+  /* background-color: #4c46b9; */
+  /* color: white; */
+  box-shadow: 1px 4px 10px 1px rgba(0, 0, 0, 0.2);
+}
