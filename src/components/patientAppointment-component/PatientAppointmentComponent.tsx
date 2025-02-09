@@ -1,5 +1,4 @@
 import "./patientAppointmentComponent.css";
-
 const PatientAppointmentComponent = () => {
   return (
     <div className="patient-appointment-component">

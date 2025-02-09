@@ -1,8 +1,5 @@
 import './cardAppointmentComponent.css'
 import { Appointment } from "../../type/@type";
-
-
-
 const CardAppointment = (props :Appointment) => {
   return (
     <div className="card-appointment-container">
@@ -35,5 +32,4 @@ const CardAppointment = (props :Appointment) => {
     </div>
   );
 };
-
 export default CardAppointment;

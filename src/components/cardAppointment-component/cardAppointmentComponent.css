@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-around;
     gap: 16px;
-    background: #ffffff;
+    background: #FFF2F2;
     border-radius: 12px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -12,7 +12,7 @@
   }
   .index-container{
     width: 3%;
-    background-color: #007bff;
+    background-color: #2D336B;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
     gap: 15px;
-    background: #f9f9f9;
+    background: #FFF2F2;
     border-radius: 10px;
     padding: 16px;
     width: 80%;
@@ -49,6 +49,7 @@
     padding:5px;
     font-size: 15px;
     color: #333;
+    background-color: #fff;
   }
   .card-information p:nth-child(7n) {
     grid-column: span 3; /* Makes the 3rd item in each row span the full width */
@@ -87,7 +88,7 @@
   }
   
   .save-note {
-    background: #007bff;
+    background: #2D336B;
     color: white;
     border: none;
     padding: 10px;
